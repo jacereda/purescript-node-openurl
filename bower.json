@@ -1,0 +1,14 @@
+{
+  "name": "purescript-node-openurl",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^3.1.0",
+    "purescript-node-child-process": "^4.0.0",
+    "purescript-node-process": "^5.0.0"
+  }
+}
