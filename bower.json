@@ -1,5 +1,6 @@
 {
   "name": "purescript-node-openurl",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
