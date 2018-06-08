@@ -2,9 +2,8 @@ module Test.Main where
 
 import Prelude
 
-import Control.Monad.Eff (Eff)
-import Node.ChildProcess (CHILD_PROCESS)
+import Effect (Effect)
 import Node.OpenURL (openURL)
 
-main :: forall e. Eff (cp :: CHILD_PROCESS | e) Unit
+main :: Effect Unit
 main = openURL "http://www.google.com"
